@@ -1,4 +1,5 @@
 # customer-service
+Note :  If we want to run the application against a local database, set `Server=localhost;Database=ecomcustomerdb;User=root;Password=<password>;Port=3306;` in `appsettings.json`
 
 # docker
 When two developers are working on an application, one developer might have a different version of certain dependencies, such as MySQL, .NET SDK, and other components. If they configure the application based on the versions available on their machine, another developer with different versions may face compatibility issues. To run the application, the second developer must install the specific versions used by the first developer, which is time-consuming.
