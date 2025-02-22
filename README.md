@@ -6,18 +6,18 @@ In the future, if a new team member joins and has the latest versions of these d
 Docker solves this problem by making applications portable. Instead of each developer manually configuring their environment, Docker ensures that the application runs in a consistent environment across different machines. This means the same versions of dependencies are used regardless of the developer's local setup, making it easier to share and deploy the application across multiple environments.
 
 Commonly used commands:
- List all available containers : docker ps -a
- List running containers : docker ps
- Pull an image from Docker Hub : docker pull <image_name>
- Build an image from a Dockerfile : docker build -t <image_name> .
- Start a stopped container : docker start <container_id_or_name>
- Stop a running container : docker stop <container_id_or_name>
- Get logs of a container : docker logs <container_id_or_name>
- Run a container from an image, automatically create and start it: docker run -d --name <container_name> <image_name>
- Remove stopped container : docker rm <container_id_or_name>
- Remove an image : docker rmi <image_name>
- Remove all containers : docker containers prune
- Run MySQL inside a container: docker exec -it <container_name> mysql -u<root> -p<password>
+ 1. List all available containers : docker ps -a
+ 2. List running containers : docker ps
+ 3. Pull an image from Docker Hub : docker pull <image_name>
+ 4. Build an image from a Dockerfile : docker build -t <image_name> .
+ 5. Start a stopped container : docker start <container_id_or_name>
+ 6. Stop a running container : docker stop <container_id_or_name>
+ 7. Get logs of a container : docker logs <container_id_or_name>
+ 8. Run a container from an image, automatically create and start it: docker run -d --name <container_name> <image_name>
+ 9. Remove stopped container : docker rm <container_id_or_name>
+ 10. Remove an image : docker rmi <image_name>
+ 11. Remove all containers : docker containers prune
+ 12. Run MySQL inside a container: docker exec -it <container_name> mysql -u<root> -p<password>
 
 
 
