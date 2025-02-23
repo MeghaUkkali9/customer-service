@@ -14,7 +14,7 @@ Commonly used commands:
  5. Start a stopped container : docker start <container_id_or_name>
  6. Stop a running container : docker stop <container_id_or_name>
  7. Get logs of a container : docker logs <container_id_or_name>
- 8. Run a container from an image, automatically create and start it: docker run -d --name <container_name> <image_name>
+ 8. Run a container from an image, automatically create and start it: docker run -d -p <host_port>:<container_port> --name <container_name> <image_name>
  9. Remove stopped container : docker rm <container_id_or_name>
  10. Remove an image : docker rmi <image_name>
  11. Remove all containers : docker containers prune
