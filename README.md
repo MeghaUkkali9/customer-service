@@ -9,7 +9,7 @@ Docker solves this problem by making applications portable. Instead of each deve
 Commonly used commands:
  1. List all available containers : docker ps -a
  2. List running containers : docker ps
- 3. Pull an image from Docker Hub : docker pull <image_name>
+ 3. Pull an image from Docker Hub : docker pull <image_name>:<tag>
  4. Build an image from a Dockerfile : docker build -t <image_name> .
  5. Start a stopped container : docker start <container_id_or_name>
  6. Stop a running container : docker stop <container_id_or_name>
